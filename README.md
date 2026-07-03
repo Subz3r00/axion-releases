@@ -42,27 +42,6 @@ You normally do not need to install Python separately, because the Windows build
 6. Open Brawl Stars in the emulator and make sure your account is ready in the lobby.
 7. Double-click `Axion.exe` to start Axion.
 
-## Usage
-
-1. Start your Android emulator first.
-2. Make sure Brawl Stars opens correctly inside the emulator.
-3. Start `Axion.exe`.
-4. Check whether the correct settings are loaded in Axion.
-5. Adjust the configuration files when needed. They are located in:
-
-```text
-Axion/_internal/cfg/
-```
-
-Important configuration files include:
-
-* `general_config.toml` for general settings such as emulator port, player tag, play order, and session limits.
-* `bot_config.toml` for bot behavior, detection settings, and playstyle.
-* `webhook_config.toml` for Discord or Telegram notifications.
-* `lobby_config.toml` for screen coordinates and lobby detection.
-
-Restart Axion after changing any configuration files.
-
 ## Emulator Settings
 
 Axion uses ADB to communicate with the Android emulator. Make sure that:
