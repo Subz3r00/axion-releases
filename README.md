@@ -100,19 +100,6 @@ Axion/
     └── other internal files
 ```
 
-## Security
-
-Never publish sensitive data on GitHub. Always check the files inside `Axion/_internal/cfg/` before making anything public. This includes licenses, sessions, tokens, API keys, player tags, and webhook URLs.
-
-Recommended `.gitignore` entries for your repository:
-
-```gitignore
-Axion/_internal/cfg/*session*.json
-Axion/_internal/cfg/*client*.json
-Axion/_internal/cfg/*api*.toml
-Axion/_internal/cfg/webhook_config.toml
-```
-
 ## License
 
 This project is not permitted to be sold or monetized.
