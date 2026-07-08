@@ -98,7 +98,12 @@ Axion/
     ├── cfg/
     ├── static/
     └── other internal files
-```
+
+# SHA-256 
+SHA-256
+D77949EAD4A67C7EE591DEFBA73560DED0F91B784E540A9459B3B2F9A7AEBDC5  Axion.exe
+Get-FileHash -Algorithm SHA256 .\Axion.exe. (Axion.exe.sha256.txt is included in de ZIP.)
+
 
 ## License
 
